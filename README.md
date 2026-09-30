@@ -4,6 +4,15 @@ Crystal spec framework with the same syntax as Ruby minitest.
 
 ## Usage
 
+In shard.yml
+```yaml
+development_dependencies:
+  minispec:
+    github: pyer/minispec.cr
+    branch: main
+```
+
+In spec files
 ```crystal
 require "minispec"
 ```
